@@ -1,0 +1,9 @@
+{% block title%} Calculadora de matrices {% endblock %}
+{% block content %} 
+<form method="get" action="/ejercicios/resmat">
+    {{form.as_p}}
+    <button type="submit" name="resultado">resultado</button>
+
+</form>
+
+{% endblock %}
